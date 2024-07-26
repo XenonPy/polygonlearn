@@ -34,6 +34,24 @@
   height:min-content;
 }
 
+.notfoundcontainer{
+  width:50%;
+  height:50%;
+  position:absolute;
+  left:25%;
+  top:25%;
+}
+
+.notfoundh{
+  font-size:4rem;
+  font-weight: bolder;
+}
+
+.bodyText{
+  font-weight: 400;
+  font-size:2vw;
+}
+
 @media only screen and (max-width:1023px){
   .dashboard img {
       width:256px;
