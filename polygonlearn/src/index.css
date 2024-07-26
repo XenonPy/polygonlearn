@@ -9,7 +9,7 @@
   justify-content: space-evenly;
   align-items: center;
   width:100%;
-  height:auto;
+  height:fit-content;
 }
 
 .dashboard img {
@@ -18,11 +18,32 @@
 }
 
 .userXPValue {
-  
+  font-size:6vw;
+}
+
+.xpInformation{
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  text-align: center;
+  border:#000 solid 5px;
+  border-radius: 10px;
+  margin:2vw;
+  filter: brightness(0%);
+  height:min-content;
 }
 
 @media only screen and (max-width:1023px){
   .dashboard img {
       width:256px;
+  }
+
+  .userXPValue{
+    font-size: 14vw;
+  }
+
+  .dashboard img {
+    width:356px;
   }
 }

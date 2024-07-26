@@ -13,8 +13,10 @@ function App() {
   return (
     <>
       <div className='dashboard'>
-        <XPImage num={userXP}></XPImage>
-        <h1 className="userXPValue">{`${userXP} XP`}</h1>
+        <div class="xpInformation">
+          <XPImage num={userXP}></XPImage>
+          <h1 className="userXPValue">{`${userXP} XP`}</h1>
+        </div>
       </div>
     </>
   )
