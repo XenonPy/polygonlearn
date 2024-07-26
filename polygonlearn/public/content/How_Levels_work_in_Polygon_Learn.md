@@ -5,4 +5,4 @@ As you work your way through lessons, you'll notice that you gain XP. So what do
 ### Why does it work this way?
 Put simply, we wanted to present more of a challenge to give more exclusive rewards to more long-time users, and this system gives that a nice difficulty curve.
 ### What Poly will I get at (insert level) level?
-You'll unlock a new shape for your Poly every four stages. In between stages your Poly will grow before resetting its size when you unlock a new shape.
+You'll unlock a new Poly every four stages. In between stages your Poly will grow before resetting its size when you unlock a new shape.

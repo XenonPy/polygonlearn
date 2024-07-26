@@ -1,4 +1,3 @@
-import './App.css';
 import { XPImage } from './components/XPImage';
 import { useEffect, useState } from 'react';
 
@@ -14,8 +13,8 @@ function App() {
   return (
     <>
       <div className='dashboard'>
-        <XPImage num={51}></XPImage>
-        <h1 className={`${userXP} XP`}></h1>
+        <XPImage num={userXP}></XPImage>
+        <h1 className="userXPValue">{`${userXP} XP`}</h1>
       </div>
     </>
   )
